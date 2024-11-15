@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 450px;
+    padding: 50px;
+    .img-container .card-img {
+        background-color: bisque;
+        height: 500px;
+        width: 100%;
+    }
+}
