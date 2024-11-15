@@ -1,10 +1,11 @@
 import './App.css'
+import Logo from './components/atoms/Logo/Logo'
 
 function App() {
 
   return (
     <>
-      
+      <Logo />
     </>
   )
 }
