@@ -11,6 +11,7 @@ const Cards = () => {
             <section className="cards-container">
                 {
                     cards.map((card) => (
+                        card.imageUrl === undefined ? null : 
                         <div className="cards" key={ card.id }>
                             <Card 
                                 imageUrl={ card.imageUrl }
