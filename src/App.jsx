@@ -1,11 +1,10 @@
-import './App.css'
-import Logo from './components/atoms/Logo/Logo'
+import Card from "./components/molecules/Card/Card"
 
 function App() {
 
   return (
     <>
-      <Logo />
+      <Card />
     </>
   )
 }

@@ -1,6 +1,8 @@
+import { getAllCards } from "../../../services/APIservice";
 import "./Card.css";
 
 function Card() {
+  getAllCards();
   return (
     <div className="card">
         <div className="img-container">
