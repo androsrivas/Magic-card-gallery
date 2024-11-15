@@ -1,8 +1,10 @@
-import { getAllCards } from "../../../services/APIservice";
+import { useContext } from "react";
+import { CardContext } from "../../../context/CardContext/CardContext";
 import "./Card.css";
 
 function Card() {
-  getAllCards();
+  const { cards } = useContext(CardContext);
+  
   return (
     <div className="card">
         <div className="img-container">
