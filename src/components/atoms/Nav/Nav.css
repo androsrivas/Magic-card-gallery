@@ -1,6 +1,6 @@
 .navbar .nav-items {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     li {
         text-decoration: none;
         list-style-type: none;
