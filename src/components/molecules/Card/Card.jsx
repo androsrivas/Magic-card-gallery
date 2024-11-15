@@ -1,6 +1,6 @@
 import "./Card.css";
 
-function Card({ imageUrl, name, type, originaltext }) {
+function Card({ imageUrl, name, type, text }) {
   
   
   return (
@@ -14,7 +14,7 @@ function Card({ imageUrl, name, type, originaltext }) {
                 <h4>Type</h4>
                 <p>{type }</p>
                 <h4>Description</h4>
-                <p>{originaltext }</p>
+                <p>{text }</p>
             </section>
         </div>
     </>
