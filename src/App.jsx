@@ -1,10 +1,13 @@
 import Card from "./components/molecules/Card/Card"
+import CardProvider from "./context/CardContext/CardProvider"
 
 function App() {
 
   return (
     <>
-      <Card />
+      <CardProvider>
+        <Card />
+      </CardProvider>
     </>
   )
 }
